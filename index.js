@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 80;
-app.listen(PORT);
+const port = process.env.PORT || 80;
+app.listen(port);
 
 app.use(express.static('public'))
  
